@@ -1,0 +1,41 @@
+h1{
+    font-weight:bold;/*设置字体加粗*/
+    text-align: center;
+}
+a{
+    height: 70px;
+    width: 127px;
+    background-color:#ddd;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+    cursor: pointer;
+    display:inline-block;
+    font-family: 微软雅黑, Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #111;
+}
+a:hover{
+    background-color:#e1e1e1 ;
+    color:#3e3e3e;
+}
+.add{
+    display: none;
+    background-color: #e1e1e1;
+    border:solid black 1px;
+    padding: 10px;
+    font-size: 10px;
+}
+#add:hover .add{
+    display:inline-block;
+}
+#delete{
+    border:none;
+    padding: 0;
+    margin: 0;
+}
+#delete input{
+    border:none;
+    padding: 0;
+    margin: 0;
+}
